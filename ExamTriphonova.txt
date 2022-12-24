@@ -1,0 +1,9 @@
+Function IncomeTax(CurrentIncom As Double)
+If CurrentIncom < 50001 Then
+	IncomeTax = CurrentIncom * 0.12
+ElseIf CurrentIncom < 150001 Then
+	IncomeTax = 6000 + CurrentIncom * 0.2
+Else
+	IncomeTax = 26000 + CurrentIncom * 0.3
+End If
+End Function
