@@ -1,3 +1,4 @@
+My first change Triphonova
 Function IncomeTax(CurrentIncom As Double)
 If CurrentIncom < 50001 Then
 	IncomeTax = CurrentIncom * 0.12
